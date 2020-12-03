@@ -6,8 +6,15 @@ body {
 
 img {
     max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 10px #64471e;
+    border-radius: 10%;
+    max-height: 200px;
+    float: left;
+    margin: 0px 15px 20px 0px;
+    display:block;
+   }
+
+  div {
+      margin: auto;
   }
 
 /* Class Styles */
@@ -31,7 +38,15 @@ img {
 }
 
 .image {
-    padding-left: 20px;
+    padding: 20px;
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
 }
 
 .text {
@@ -47,6 +62,8 @@ img {
 .footer {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 /* id Styles */
 #topicTitle {
@@ -75,11 +92,22 @@ img {
     border-radius: 50%;
 }
 
-#bean {
-    padding-left: 20px;
-}
-
 #peaberry {
     padding-left: 20px;
+    box-shadow: 10px 5px #64471e;
+}
+
+#peaberryText {
+    text-align: left;
+}
+
+#bean {
+    padding-left: 20px;
+    box-shadow: 10px 5px #64471e;
+    float: right;
+}
+
+#beanText {
+    text-align: right;
 }
 
