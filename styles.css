@@ -1,8 +1,10 @@
+/* Element styles */
 body {
     margin: 20px;
-    background-color: #b17720;
+    background-color: #ccb38a;
 }
 
+/* Class Styles */
 .banner {
     color: #64471e;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -15,7 +17,23 @@ body {
 .topic {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #2b1f0d;
+}
+
+.introText {
+    background-color: #f3ca94;
+    margin: 0;
+}
+
+.upperText {
+    background-color: #966a2d;
     
+}
+.firstLetter {
+    font: Impact;
+    font-size: 15px;
+}
+
+/* id Styles */
 }#topicTitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
@@ -33,8 +51,4 @@ body {
 #topHat {
     border-radius: 50%;
     vertical-align: top;
-}
-
-.introText {
-    background-color: #f3ca94;
 }
