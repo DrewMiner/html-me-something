@@ -5,7 +5,9 @@ body {
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px #64471e;
   }
 
 /* Class Styles */
@@ -71,18 +73,13 @@ img {
 
 #topHat {
     border-radius: 50%;
-    vertical-align: top;
 }
 
 #bean {
-    vertical-align: top;
     padding-left: 20px;
-    border-radius: 10px;
 }
 
 #peaberry {
-    vertical-align: top;
     padding-left: 20px;
-    border-radius: 10px;
 }
 
